@@ -1,0 +1,29 @@
+package HW;
+
+public class Main extends Parent {
+
+	
+		
+
+	
+
+	@Override
+	public void m1() {
+	 System.out.println("m1 without parameters");
+		
+	}
+
+	@Override
+	public void m1(String str) {
+		System.out.println("m1 method with parameter");
+		
+	}
+	public static void main(String[] args) {
+		
+		Main obj=new Main();
+		obj.m1();
+		obj.m1("qwe");
+		
+		
+	}
+}

@@ -1,0 +1,16 @@
+package HW;
+
+
+
+class Main{  //extends EncapsulationDemo
+
+public static void main (String[] args){
+  EncapsulationDemo obj=new EncapsulationDemo();
+  obj.setter("Jonh");
+  System.out.println("Employee Name: "+obj.getter() );
+  obj.setter(30);
+  System.out.println("Employee Age: "+obj.getter() );
+  
+}
+
+}

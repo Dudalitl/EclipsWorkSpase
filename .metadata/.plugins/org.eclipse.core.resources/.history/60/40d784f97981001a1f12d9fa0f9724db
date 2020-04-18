@@ -1,0 +1,20 @@
+package HW;
+
+import java.util.ArrayList;
+
+public class ListOfArray {
+	
+		  public static void main (String[] args){
+		  ArrayList<Integer> Object=new ArrayList<>();
+		  Object.add(111);
+		  Object.add(222);
+		  Object.add(333);
+		  Object.add(444);
+		  Object.add(555);
+		  Object.add(666);
+		  
+		  System.out.println(Object);
+		  
+		}
+
+}

@@ -1,0 +1,12 @@
+package com.syntax.class27;
+
+public class ArrayList {
+
+	public static void main(String[] args) {
+		
+		ArrayListR<String> aList=new ArrayListR<>();
+			
+		
+	}
+
+}

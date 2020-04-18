@@ -1,0 +1,21 @@
+package HW;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class ArrayListT {
+
+	public static void main(String[] args) {
+		
+		ArrayList<String> Object=new ArrayList<>();
+		
+		Iterator<String> it=Object.iterator();
+		System.out.println(it.hasNext());
+		
+		Object.add("Syntax");
+		
+		System.out.println(it.hasNext());
+
+	}
+
+}

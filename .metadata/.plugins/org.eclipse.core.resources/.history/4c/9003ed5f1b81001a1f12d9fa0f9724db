@@ -1,0 +1,23 @@
+package HW;
+
+
+class EncapsulationDemo {
+	  private String empName="John";
+	  private int empAge=30;
+	  
+	  public String getName (){
+	    return empName;
+	  }
+	  public int getAge (){
+	    return empAge;
+	  }
+	}
+	class Main {
+	  public static void main (String[] args){
+	    EncapsulationDemo obj=new EncapsulationDemo();
+	    System.out.println("Employee Name: "+obj.getName());
+	    System.out.println("Employee Age: "+obj.getAge());
+	    
+	  }
+
+	}

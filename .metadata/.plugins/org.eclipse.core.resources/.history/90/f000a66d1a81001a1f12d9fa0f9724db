@@ -1,0 +1,21 @@
+package HW;
+
+public class EncapsulationDemo {
+
+		  private String empName;
+		  private int empAge;
+		  
+		  
+		  public String getName(){
+		    return empName;
+		  }
+		  public void setName(String newName) {
+		  this.empName=newName;
+		}
+		  public int getAge(){
+		    return empAge;
+		  }
+		  public void setAge(int newAge){
+		    this.empAge=newAge;
+		  }
+}

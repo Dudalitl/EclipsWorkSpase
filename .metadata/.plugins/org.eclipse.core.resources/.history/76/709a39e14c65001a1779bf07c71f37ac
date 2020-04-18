@@ -1,0 +1,25 @@
+package qwerty;
+
+public class first {
+
+	public static void main(String[] args) {
+		
+			    
+			    for (int i=0; i<14; i++){
+			    	if (i<7) {
+			        for (int w=1; w<8-i; w++ ){
+			        System.out.print(w);
+			        }System.out.println();
+			      }
+			    	else {
+			    	for (int w=1; w<i+w; w++ ){
+				        System.out.print(w);
+				        }System.out.println();
+			    }
+			 
+			  
+
+
+	}
+	}
+}

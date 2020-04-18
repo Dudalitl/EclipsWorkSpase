@@ -1,0 +1,25 @@
+package com.java.reveiw03;
+
+public class Wer {
+}
+		class Parent{
+		  Parent(){
+		    System.out.println("Parent Constructor without argument");
+		  }
+		  Parent(int number){
+		    System.out.println(number);
+		  }
+		}
+		class Child{
+		  Child(){
+		    System.out.println("Child Constructor without argument");
+		  }
+		  Child(int number){
+		    super();
+		  }
+		
+		  public static void main (String [] args){
+		    Child obj1=new Child();
+		    Child obj2=new Child(10);
+		  }
+		}

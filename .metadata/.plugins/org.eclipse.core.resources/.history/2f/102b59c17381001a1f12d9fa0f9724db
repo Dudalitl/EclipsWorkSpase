@@ -1,0 +1,12 @@
+package HW;
+
+public class ArrayList {
+
+	public static void main(String[] args) {
+		
+		ArrayListT<String> Object=new ArrayListT<>();
+		
+
+	}
+
+}
