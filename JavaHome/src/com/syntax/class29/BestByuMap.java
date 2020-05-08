@@ -2,9 +2,11 @@ package com.syntax.class29;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+import java.util.TreeMap;
 
 //Create a map of Best Buy store.
 //Place item id and item name into it. Example (7664847 = Printer, 7879885= TV etc )
@@ -15,12 +17,12 @@ public class BestByuMap {
 
 	public static void main(String[] args) {
 		
-		Map<Integer,String> bestBuy=new HashMap<>();
-		bestBuy.put(7664847, "Printer");
-		bestBuy.put(7664963, "TV");
-		bestBuy.put(7645298, "Vakum");
-		bestBuy.put(7678452, "Smart Phone");
-		bestBuy.put(7845129, "Laptop");
+		Map<Integer,String> bestBuy=new TreeMap<>();
+		bestBuy.put(10, "Printer");
+		bestBuy.put(12, "TV");
+		bestBuy.put(15, "Vakum");
+		bestBuy.put(17, "Smart Phone");
+		bestBuy.put(19, "Laptop");
 		
 		System.out.println(bestBuy);
 		

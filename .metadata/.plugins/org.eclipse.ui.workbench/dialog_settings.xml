@@ -6,15 +6,15 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
+			<item value="org.eclipse.debug.ui.VariableView"/>
 			<item value="org.eclipse.mylyn.tasks.ui.wizards.new.category"/>
 			<item value="org.eclipse.debug.ui.DebugView"/>
-			<item value="org.eclipse.debug.ui.VariableView"/>
 			<item value="org.eclipse.debug.ui.BreakpointView"/>
 			<item value="org.eclipse.ui.console.ConsoleView"/>
 		</list>
 		<list key="orderedProviders">
-			<item value="org.eclipse.ui.wizards"/>
 			<item value="org.eclipse.e4.ui.parts"/>
+			<item value="org.eclipse.ui.wizards"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.e4.ui.parts"/>
@@ -27,9 +27,9 @@
 			<item value="1"/>
 		</list>
 		<list key="textArray">
+			<item value="vari"/>
 			<item value="ca"/>
 			<item value="deb"/>
-			<item value="vari"/>
 			<item value="break"/>
 			<item value="console"/>
 		</list>
@@ -41,7 +41,7 @@
 		</list>
 	</section>
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="372"/>
+		<item key="DIALOG_X_ORIGIN" value="269"/>
 		<item key="DIALOG_Y_ORIGIN" value="8"/>
 	</section>
 	<section name="ImportExportAction">

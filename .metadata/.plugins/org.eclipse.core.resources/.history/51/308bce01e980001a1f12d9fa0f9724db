@@ -1,6 +1,0 @@
-package HW;
-
-public interface Outputs {
-	
-		  public double display(double result);
-		}
