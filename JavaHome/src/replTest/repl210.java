@@ -13,15 +13,15 @@ package replTest;
 
 
   class SyntaxStudentException extends RuntimeException{
-	  
-	  
-	  
+	  SyntaxStudentException(String messag){
+		 super(messag);
+	  }
   }
 
 public class repl210 {
 	public static void gradeChek(int num) {
 		if (num>90) {
-			throw new SyntaxStudentException();
+			throw new SyntaxStudentException("SyntaxStudentException: You are an exceptionally awesome student");
 		}if (num<90) {
 			System.out.println("You are a great student");
 		}
@@ -30,7 +30,12 @@ public class repl210 {
 
 	public static void main(String[] args) {
 		
-
+		try {
+			gradeChek(95);
+		}catch(SyntaxStudentException se) {
+			System.out.println(se.getMessage());
+			
+		}
 	}
 
 }
