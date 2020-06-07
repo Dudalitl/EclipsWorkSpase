@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="87" started-at="2020-05-19T13:14:15 EDT" finished-at="2020-05-19T13:14:15 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="87" started-at="2020-05-19T13:14:15 EDT" finished-at="2020-05-19T13:14:15 EDT">
+      <class name="fromMars.testNG">
+        <test-method status="PASS" signature="display()[pri:0, instance:fromMars.testNG@3701eaf6]" name="display" duration-ms="20" started-at="2020-05-19T13:14:15 EDT" finished-at="2020-05-19T13:14:15 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- display -->
+      </class> <!-- fromMars.testNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

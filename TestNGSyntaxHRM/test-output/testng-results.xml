@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18570" started-at="2020-06-02T23:45:44 EDT" finished-at="2020-06-02T23:46:03 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18570" started-at="2020-06-02T23:45:44 EDT" finished-at="2020-06-02T23:46:03 EDT">
+      <class name="com.hrms.testcase.loginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcase.loginTest@33f88ab]" name="setUp" is-config="true" duration-ms="7388" started-at="2020-06-02T23:45:44 EDT" finished-at="2020-06-02T23:45:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testOne()[pri:0, instance:com.hrms.testcase.loginTest@33f88ab]" name="testOne" duration-ms="11133" started-at="2020-06-02T23:45:52 EDT" finished-at="2020-06-02T23:46:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+      </class> <!-- com.hrms.testcase.loginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

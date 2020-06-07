@@ -1,15 +1,27 @@
 package com.syntax.class01;
 
+import java.util.ArrayList;
+
 public class Greetings {
 
 	public static void main(String[] args) {
-		//println vs print
-		
-		System.out.print("good morning");
-		System.out.println("good afternoon");
-		System.out.print("good evening");
-		System.out.print("good night");
+		String[] strs = new String[2];
 
+		int idx = 0;
+
+		for (String s : strs) {
+
+		                 strs[idx].concat(" element " + idx);
+
+		                    idx++;
+
+		}
+
+		for (idx = 0; idx < strs.length; idx++) {
+
+		                  System.out.println(strs[idx]);
+
+		}
 	}
-
 }
+
