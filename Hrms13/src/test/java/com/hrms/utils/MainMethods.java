@@ -34,7 +34,7 @@ public class MainMethods extends PageInitializer {
 	public static void clickRadioOrCheckBox (List<WebElement> radioOrCheck, String value) {
 		String actualValue;
 		for(WebElement el:radioOrCheck) {
-		actualValue=el.getAttribute(value).trim();	
+		actualValue=el.getAttribute("value").trim();
 		if(el.isEnabled()&&actualValue.equals(value)) {
 			el.click();
 			break;
@@ -49,7 +49,7 @@ public class MainMethods extends PageInitializer {
 		List<WebElement>option=select.getOptions();
 		for(WebElement el: option) {
 			if (el.getText().equals(textToSelect)) {
-				select.selectByValue(textToSelect);
+				select.selectByVisibleText(textToSelect);
 				break;
 			}
 		}
@@ -70,6 +70,7 @@ public class MainMethods extends PageInitializer {
 			e.printStackTrace();
 		}
 	}
+	
 	
 	
 	/**

@@ -7,23 +7,18 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions (
-		features ="src\\test\\resources\\features",
+		features ="@target\\failed.txt",
 		glue="com\\hrms\\steps",
 		dryRun=false,
-		
 		monochrome = true,
-		strict=true,
-		tags="@smoke",
 		plugin = {
 				"pretty",
 				"html:target\\cucomberDefendReport",
-				"json:target\\cucomber.json"
-			//	,"return: \\target\\failed.txt"
-				
+				//"json:target\\cucomber.json"
 		}
 		
 		)
 
-public class testRunner {
+public class failedRunner {
 
 }

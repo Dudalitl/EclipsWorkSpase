@@ -4,25 +4,25 @@ Feature: Testing login page
 						Login without pasword
 						LOgin with corect username and password
 
-@smoke
+@smok
 Scenario: Logo displayed
     When User check logo is display
     
     
-@smoke  
+@smok  
 Scenario: Login with wrong password
     When User put user name
     And User put wrong password
     And User click button login
     Then User see error message
 
-@regression
+@smoke
 Scenario: Login without password
 		When User put user name
 		And User click button login
 		Then User see error message
 
-@regression		
+@smoke	
 Scenario: Login with corect username and password
 
 		When User put user name

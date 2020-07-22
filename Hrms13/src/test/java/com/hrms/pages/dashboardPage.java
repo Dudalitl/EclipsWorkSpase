@@ -1,5 +1,7 @@
 package com.hrms.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -22,6 +24,9 @@ public class dashboardPage {
 	
 	@FindBy(id="menu_pim_addEmployee")
 	public WebElement addEmployee;
+	
+	@FindBy(xpath="//div[@class='menu']/ul/li")
+	public List<WebElement> menu;
 	
 	public dashboardPage() {
 		PageFactory.initElements(DriverBase.driver, this);
