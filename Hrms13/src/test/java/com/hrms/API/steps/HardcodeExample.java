@@ -18,7 +18,7 @@ public class HardcodeExample {
 	 */
 	
 	
-	static String baseURI =RestAssured.baseURI = "http://18.232.148.34/syntaxapi/api";
+	static String baseURI = RestAssured.baseURI = "http://18.232.148.34/syntaxapi/api";
 	String token = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1OTUxOTQzMDYsImlzcyI6ImxvY2FsaG9zdCIsImV4cCI6MTU5NTIzNzUwNiwidXNlcklkIjoiNjkwIn0.rLyjZmeKQFdPu_MDuQCozQlPbNBUo8VEGsc0LJVzBMA";
 
 public void sampleTestNotes() {
